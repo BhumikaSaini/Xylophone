@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tune 1"
+        android:id="@+id/tune1Title"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tune1Title"
+        android:layout_margin="20dp"
+        android:id="@+id/tune1Container">
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/red" />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/green"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/turquoise"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/magenta"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tune 2"
+        android:id="@+id/tune2Title"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_below="@id/tune1Container"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tune2Title"
+        android:layout_margin="20dp">
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/red" />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/green"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/turquoise"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/magenta"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
