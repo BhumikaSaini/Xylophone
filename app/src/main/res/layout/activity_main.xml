@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is how you specify comments in XML -->
+
+<!-- First, define a namespace for "android", "app", "tools" words to remove any ambiguity -->
+<!-- Context is the .java file to which this .xml file is paired up with -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/note1_c"
@@ -86,16 +91,6 @@
         android:layout_marginBottom="10dp"/>
 
     <Button
-        android:id="@+id/note8_c"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_below="@id/note7_b"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:background="@color/magenta"/>
-
-    <Button
         android:id="@+id/libraryButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -105,3 +100,4 @@
         android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
+

@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LibraryActivity">
@@ -57,11 +58,6 @@
             android:layout_height="wrap_content"
             android:background="@color/purple"/>
 
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:background="@color/magenta"/>
-
     </LinearLayout>
 
     <TextView
@@ -87,12 +83,17 @@
         <Button
             android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:background="@color/orange"/>
+            android:background="@color/blue"/>
 
         <Button
             android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:background="@color/yellow"/>
+            android:background="@color/turquoise"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/green"/>
 
         <Button
             android:layout_width="20dp"
@@ -108,16 +109,6 @@
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:background="@color/blue"/>
-
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:background="@color/purple"/>
-
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:background="@color/magenta"/>
 
     </LinearLayout>
 
